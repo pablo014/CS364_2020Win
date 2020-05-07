@@ -98,6 +98,11 @@ ol > li:before {
     content:counter(item) ".";
 }
 
+ol.steps > li:before {
+    width: 4em;
+    content:"Step "counter(item) ":";
+}
+
 ul.unlabeled {
     list-style: none;
 }
