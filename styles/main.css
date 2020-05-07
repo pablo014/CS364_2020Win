@@ -18,6 +18,7 @@ body {
     margin: auto;
     background: white;
     padding: 60px;
+    line-height: 1.5;
 }
 
 header {
@@ -60,38 +61,35 @@ h5  {
     margin: 0;
 }
 
-div.body {
-    line-height: 1.5;
-}
 
-div.body p {
+p {
     margin-top: 0;
     text-indent: 30px;
 }
 
-div.body p.no-indent {
+p.no-indent {
     text-indent: 0;
 }
 
-div.body .level1 {
+.level1 {
     padding-left: 20px;
 }
 
-div.body ul {
+ul {
     margin: 0;
     padding-left: 25px;
 }
-div.body ol {
+ol {
     padding-left: 5px;
 }
-div.body ol > li {
+ol > li {
     margin:0;
     padding:0 0 0 2em;
     text-indent:-2em;
     list-style-type:none;
     counter-increment:item;
 }
-div.body ol > li:before {
+ol > li:before {
     display:inline-block;
     width:1.5em;
     padding-right:0.5em;
