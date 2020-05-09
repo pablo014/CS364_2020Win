@@ -136,3 +136,7 @@ table tr:nth-child(odd) {
 span.highlight {
     background-color: yellow;
 }
+
+img {
+    max-width: 100%;
+}
